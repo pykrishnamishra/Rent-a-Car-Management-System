@@ -25,14 +25,6 @@ public class Booking implements Serializable {
     public Booking() {
     }
 
-    public Booking(int ID, Customer customer, Car car, long RentTime, long ReturnTime) {
-        this.ID = ID;
-        this.customer = customer;
-        this.car = car;
-        this.RentTime = RentTime;
-        this.ReturnTime = ReturnTime;
-    }
-
     public int getID() {
         return ID;
     }
